@@ -13,7 +13,7 @@ function ColourPicker(){
             <div className="wrapper">
                 <h1>Colour Picker</h1>
                 <p>Selected Colour: <br/>
-                {colour}</p>
+                <span>{colour}</span></p>
                 <div className="colour-display" 
                 style={{backgroundColor: colour}}>
                 </div>
