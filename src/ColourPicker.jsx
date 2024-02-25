@@ -12,10 +12,12 @@ function ColourPicker(){
         <div className="container">
             <div className="wrapper">
                 <h1>Colour Picker</h1>
-                <div className="colour-display" style={{backgroundColor: colour}}>
-                    <p>Selected Colour: {colour}</p>
+                <p>Selected Colour: <br/>
+                {colour}</p>
+                <div className="colour-display" 
+                style={{backgroundColor: colour}}>
                 </div>
-                <label>Select a colour: </label>
+                <label>Select a colour: </label> <br/>
                 <input type="color" value={colour} onChange={colourChange}/>
             </div>
         </div>
